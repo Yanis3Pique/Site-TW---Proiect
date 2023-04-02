@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FC Barcelona - project</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="favicon.ico">
+</head>
+<body class="body">
+  <header class="banner-container">
+    <div>
+      <h1 class="white_text">
+        <a href="#hero-section">
+          <img src="FCB_crest.jpg" alt="Crest_left" class="header-img">
+        </a>
+        Welcome to FC Barcelona
+      </h1>
+      <nav class="buttons-position">
+        <div>
+          <a class="my-button-red" href='#hero-section'>Home</a>
+          <a class="my-button-yellow" href='#news-section'>News</a>
+          <div class="dropdown">
+            <button class="dropbtn">More</button>
+            <div class="dropdown-content">
+              <a href='#matches-section'>Matches</a>
+              <a href='#players-section'>Players</a>
+              <a href='players.html'>Starting Lineup</a>
+              <a href='https://www.google.com/search?client=opera-gx&q=la+liga+standings&sourceid=opera&ie=UTF-8&oe=UTF-8#sie=lg;/g/11sqj24s0_;2;/m/09gqx;st;fp;1;;;'>La Liga Table</a>
+              <a href='#history'>Hall of Fame</a>
+              <a href='https://www.futbin.com/draft-simulator' target="_blank">Fifa 23 Draft simulator</a>
+            </div>
+          </div>
+          <a class="my-button-albiceleste" href='#maradona-tribute'>In the memory of Diego</a>
+        </div>
+      </nav>
+    </div>          
+  </header>
+  
+  <main>
+    <div class="white_text">
+      <figure class="FCB_anthem">
+        <figcaption>Cant del Barça:</figcaption>
+        <audio
+            controls
+            src="./FCB_anthem.mp3">
+                <a href="./FCB_anthem.mp3">
+                    Download audio
+                </a>
+        </audio>
+      </figure>
+    </div>
+    <section class="home" id="hero-section">
+      <h2 class="white_text_intro">Discover the Magic of Barça</h2>
+      <iframe class="video-frame" src="https://www.youtube.com/embed/NOjqNkmIrAc"></iframe>
+    </section>
+    <section class="news" id="news-section">
+      <h2 class="white_text">Latest News</h2>
+      <div>
+          <img class="news-image-1" src="Barcelona-Supercup-Winners.jpg" alt="News image 1">
+          <img class="news-image-2" src="supercopa_score.jpg" alt="News image 2">
+          <a href="https://en.wikipedia.org/wiki/FC_Barcelona" target="_blank">
+            <img class="news-image-3" src="FCB_crest.jpg" alt="News image 3">
+          </a>
+        <div>
+          <div class="white_text_supercup">
+            Read more about Xavi's first trophy coaching the blaugranas by clicking
+            <a href="https://www.digisport.ro/fotbal/fotbal-international/real-madrid-barcelona-1-3-catalanii-castiga-supercupa-spaniei-primul-trofeu-cu-xavi-antrenor-2162285" target="_blank">
+              <span class="white_text">here.</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="matches" id="matches-section">
+      <h2 class="white_text">Upcoming Matches</h2>
+      <div class="iframe-container">
+        <iframe src = "https://www.fcbarcelona.com/en/football/first-team/schedule"></iframe>
+      </div>
+      <div class="button-container bluebird">
+        <a class="my-button-blue" href='https://store.fcbarcelona.com/en/?ext=OCM_420&utm_source=WebBarca&utm_medium=Menu&utm_campaign=MenuWebBarca_ORG_BLM_HOME_OCM_webBarca_TXT_WW_EN&_ga=2.64929455.1878426268.1678450691-815997497.1678450691&_gl=1*j7xagz*_ga*ODE1OTk3NDk3LjE2Nzg0NTA2OTE.*_ga_XCQ7B6K8TL*MTY3ODQ1MDY5MC4xLjEuMTY3ODQ1MTUxNi4wLjAuMA..'>Barça Shop</a>
+        <a class="my-button-blue" href='https://www.fcbarcelona.com/en/tickets/football'>Buy tickets</a>
+      </div>      
+    </section>
+    
+    <section class="players" id="players-section">
+      <h2 class="white_text">Our Players</h2>
+      <table class="player-table">
+        <thead>
+          <tr class="table_tr">
+            <th>Photo</th>
+            <th>Name</th>
+            <th>Position</th>
+            <th>Country</th>
+            <th>Date of birth</th>
+            <th>Joined</th>
+            <th>Jersey Number</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><img src="01-MARC-ANDRE_TER_STEGEN.jpg" alt="Marc-André ter Stegen" class="player-photo"></td>
+            <td>Marc-André ter Stegen</td>
+            <td>Goalkeeper</td>
+            <td>Germany</td>
+            <td>30/04/1992</td>
+            <td>01/07/2014</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td><img src="26-INAKI_PENA.jpg" alt="Iñaki Peña" class="player-photo"></td>
+            <td>Iñaki Peña</td>
+            <td>Goalkeeper</td>
+            <td>Spain</td>
+            <td>02/03/1999</td>
+            <td>01/07/2018</td>
+            <td>26</td>
+          </tr>
+          <tr>
+            <td><img src="04-RONALD_ARAUJO_.jpg" alt="Ronald Araújo" class="player-photo"></td>
+            <td>Ronald Araújo</td>
+            <td>Defender</td>
+            <td>Uruguay</td>
+            <td>07/03/1999</td>
+            <td>01/07/2018</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td><img src="15-ANDREAS_CHRISTENSEN.jpg" alt="Andreas Christensen" class="player-photo"></td>
+            <td>Andreas Christensen</td>
+            <td>Defender</td>
+            <td>Denmark</td>
+            <td>10/04/1996</td>
+            <td>04/07/2022</td>
+            <td>15</td>
+          </tr>
+          <tr>
+            <td><img src="17-MARCOS_ALONSO.jpg" alt="Marcos Alonso" class="player-photo"></td>
+            <td>Marcos Alonso</td>
+            <td>Defender</td>
+            <td>Spain</td>
+            <td>28/12/1990</td>
+            <td>01/09/2022</td>
+            <td>17</td>
+          </tr>
+          <tr>
+            <td><img src="18-JORDI_ALBA.jpg" alt="Jordi Alba" class="player-photo"></td>
+            <td>Jordi Alba</td>
+            <td>Defender</td>
+            <td>Spain</td>
+            <td>21/03/1989</td>
+            <td>28/06/2012</td>
+            <td>18</td>
+          </tr>
+          <tr>
+            <td><img src="23-JULES_KOUNDE.jpg" alt="Jules Kounde" class="player-photo"></td>
+            <td>Jules Kounde</td>
+            <td>Defender</td>
+            <td>France</td>
+            <td>12/11/1998</td>
+            <td>28/07/2022</td>
+            <td>23</td>
+          </tr>
+          <tr>
+            <td><img src="24-ERIC_GARCIA.jpg" alt="Eric García" class="player-photo"></td>
+            <td>Eric García</td>
+            <td>Defender</td>
+            <td>Spain</td>
+            <td>09/01/2001</td>
+            <td>01/07/2021</td>
+            <td>24</td>
+          </tr>
+          <tr>
+            <td><img src="05-SERGIO_.jpg" alt="Sergio Busquets" class="player-photo"></td>
+            <td>Sergio Busquets</td>
+            <td>Midfielder</td>
+            <td>Spain</td>
+            <td>16/07/1988</td>
+            <td>01/07/2008</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td><img src="30-GAVI_.jpg" alt="Gavi" class="player-photo"></td>
+            <td>Gavi</td>
+            <td>Midfielder</td>
+            <td>Spain</td>
+            <td>11/09/2004</td>
+            <td>01/07/2021</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td><img src="08-PEDRI.jpg" alt="Pedri" class="player-photo"></td>
+            <td>Pedri</td>
+            <td>Midfielder</td>
+            <td>Spain</td>
+            <td>25/11/2002</td>
+            <td>01/07/2019</td>
+            <td>16</td>
+          </tr>
+          <tr>
+            <td><img src="19-FRANCK_KESSIE.jpg" alt="Franck Kessié" class="player-photo"></td>
+            <td>Franck Kessié</td>
+            <td>Midfielder</td>
+            <td>Ivory Coast</td>
+            <td>19/12/1996</td>
+            <td>04/07/2022</td>
+            <td>19</td>
+          </tr>
+          <tr>
+            <td><img src="20-S_ROBERTO.jpg" alt="Sergi Roberto" class="player-photo"></td>
+            <td>Sergi Roberto</td>
+            <td>Midfielder</td>
+            <td>Spain</td>
+            <td>07/02/1992</td>
+            <td>01/07/2013</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td><img src="21-FRENKIE_DE_JONG.jpg" alt="Frenkie de Jong" class="player-photo"></td>
+            <td>Frenkie de Jong</td>
+            <td>Midfielder</td>
+            <td>Netherlands</td>
+            <td>12/05/1997</td>
+            <td>01/07/2019</td>
+            <td>21</td>
+          </tr>
+          <tr>
+            <td><img src="07-OUSMANE_DEMBELE.jpg" alt="Ousmane Dembélé" class="player-photo"></td>
+            <td>Ousmane Dembélé</td>
+            <td>Forward</td>
+            <td>France</td>
+            <td>15/05/1997</td>
+            <td>25/08/2017</td>
+            <td>11</td>
+          </tr>
+          <tr>
+            <td><img src="09-ROBERT_LEWANDOWSKI.jpg" alt="Robert Lewandowski" class="player-photo"></td>
+            <td>Robert Lewandowski</td>
+            <td>Forward</td>
+            <td>Poland</td>
+            <td>21/08/1988</td>
+            <td>19/07/2022</td>
+            <td>9</td>
+          </tr>
+          <tr>
+            <td><img src="10-ANSU_FATI.jpg" alt="Ansu Fati" class="player-photo"></td>
+            <td>Ansu Fati</td>
+            <td>Forward</td>
+            <td>Spain</td>
+            <td>31/10/2002</td>
+            <td>01/07/2019</td>
+            <td>22</td>
+          </tr>
+          <tr>
+            <td><img src="11-FERRAN_TORRES.jpg" alt="Ferran Torres" class="player-photo"></td>
+            <td>Ferran Torres</td>
+            <td>Midfielder</td>
+            <td>Spain</td>
+            <td>29/02/2000</td>
+            <td>01/07/2020</td>
+            <td>21</td>
+          </tr>
+          <tr>
+            <td><img src="22-RAPHINHA.jpg" alt="Raphinha" class="player-photo"></td>
+            <td>Raphinha</td>
+            <td>Forward</td>
+            <td>Brazil</td>
+            <td>14/12/1996</td>
+            <td>13/07/2022</td>
+            <td>22</td>
+          </tr>
+          <tr>
+            <td><img src="01_ARNAU-TENAS.jpg" alt="Arnau Tenas" class="player-photo"></td>
+            <td>Arnau Tenas</td>
+            <td>Goalkeeper</td>
+            <td>Spain</td>
+            <td>30/05/2001</td>
+            <td>18/03/2019</td>
+            <td>36</td>
+          </tr>
+          <tr>
+            <td><img src="01_ALEJANDRO-BALDE.jpg" alt="Alejandro Balde" class="player-photo"></td>
+            <td>Alejandro Balde</td>
+            <td>Defender</td>
+            <td>Spain</td>
+            <td>18/10/2003</td>
+            <td>14/09/2021</td>
+            <td>28</td>
+          </tr>
+          <tr>
+            <td><img src="01_MARC-CASADO.jpg" alt="Marc Casado" class="player-photo"></td>
+            <td>Marc Casadó</td>
+            <td>Midfielder</td>
+            <td>Spain</td>
+            <td>14/09/2003</td>
+            <td>12/07/2022</td>
+            <td>29</td>
+          </tr>
+          <tr>
+            <td><img src="01_PABLO-TORRE.jpg" alt="Pablo Torre" class="player-photo"></td>
+            <td>Pablo Torre</td>
+            <td>Midfielder</td>
+            <td>Spain</td>
+            <td>03/04/2003</td>
+            <td>04/03/2022</td>
+            <td>32</td>
+          </tr>
+          <tr>
+            <td><img src="01_ANGEL_ALARCON.jpg" alt="Angel Alarcon" class="player-photo"></td>
+            <td>Ángel Alarcón</td>
+            <td>Midfielder</td>
+            <td>Spain</td>
+            <td>15/04/2004</td>
+            <td>18/01/2023</td>
+            <td>38</td>
+          </tr>
+          <tr>
+            <td><img src="00_XAVI_HERNANDEZ.jpg" alt="Xavi Hernandez" class="player-photo"></td>
+            <td>Xavier "Xavi" Hernández</td>
+            <td>Head Coach</td>
+            <td>Spain</td>
+            <td>25/01/1980</td>
+            <td>06/11/2021</td>
+            <td>N/A</td>
+          </tr>
+          <tr>
+            <td><img src="assistant_coach1.jpg" alt="Òscar Hernández" class="player-photo"></td>
+            <td>Òscar Hernández</td>
+            <td>Assistant Coach</td>
+            <td>Spain</td>
+            <td>01/01/1980</td>
+            <td>06/11/2021</td>
+            <td>N/A</td>
+          </tr>
+          <tr>
+            <td><img src="assistant_coach2.jpg" alt="Sergio Alegre" class="player-photo"></td>
+            <td>Sergio Alegre</td>
+            <td>Assistant Coach</td>
+            <td>Spain</td>
+            <td>01/01/1985</td>
+            <td>06/11/2021</td>
+            <td>N/A</td>
+          </tr>
+          <tr>
+            <td><img src="fitness_coach.jpg" alt="Iván Torres" class="player-photo"></td>
+            <td>Iván Torres</td>
+            <td>Fitness Coach</td>
+            <td>Spain</td>
+            <td>01/01/1990</td>
+            <td>06/11/2021</td>
+            <td>N/A</td>
+          </tr>
+          <tr>
+            <td><img src="goalkeeping_coach.jpg" alt="José Ramón de la Fuente" class="player-photo"></td>
+            <td>José Ramón de la Fuente</td>
+            <td>Goalkeeping Coach</td>
+            <td>Spain</td>
+            <td>01/01/1975</td>
+            <td>01/07/2012</td>
+            <td>N/A</td>
+          </tr>
+          <tr>
+            <td><img src="analysts1.jpg" alt="Sergio Garcia" class="player-photo"></td>
+            <td>Sergio Garcia</td>
+            <td>Analyst</td>
+            <td>Spain</td>
+            <td>01/01/1995</td>
+            <td>06/11/2021</td>
+            <td>N/A</td>
+          </tr>
+          <tr>
+            <td><img src="analysts2.jpg" alt="Toni Lobo" class="player-photo"></td>
+            <td>Toni Lobo</td>
+            <td>Analyst</td>
+            <td>Spain</td>
+            <td>01/01/1980</td>
+            <td>06/11/2021</td>
+            <td>N/A</td>
+          </tr>
+          <tr>
+            <td><img src="analysts3.jpg" alt="David Prats" class="player-photo"></td>
+            <td>David Prats</td>
+            <td>Analyst</td>
+            <td>Spain</td>
+            <td>01/01/1990</td>
+            <td>06/11/2021</td>
+            <td>N/A</td>
+          </tr>
+        </tbody>
+      </table>      
+    </section>
+
+    <section class="history" id="history">
+      <h2 class="Hall_of_Fame">Hall of Fame</h2>
+      <div class="hof-div">
+        <img src="senyera.jpg" alt="Senyera_left" class="senyera_left">
+        <table class="hall-of-fame-table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Position</th>
+              <th>Years at club</th>
+              <th>Trophies won</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>László Kubala</td>
+              <td>Forward</td>
+              <td>1950-1961</td>
+              <td>4 La Liga, 2 Copa del Rey</td>
+            </tr>
+            <tr>
+              <td>Johan Cruyff</td>
+              <td>Forward/Midfielder</td>
+              <td>1973-1978, 1988-1996</td>
+              <td>1 La Liga, 1 Copa del Rey, 1 European Cup, 1 Cup Winners' Cup</td>
+            </tr>
+            <tr>
+              <td>Ronald Koeman</td>
+              <td>Defender/Midfielder</td>
+              <td>1989-1995</td>
+              <td>4 La Liga, 1 European Cup, 1 Cup Winners' Cup</td>
+            </tr>
+            <tr>
+              <td>Josep Guardiola</td>
+              <td>Midfielder</td>
+              <td>1990-2001</td>
+              <td>6 La Liga, 1 European Cup, 2 Cup Winners' Cup</td>
+            </tr>
+            <tr>
+              <td>Carles Puyol</td>
+              <td>Defender</td>
+              <td>1999-2014</td>
+              <td>6 La Liga, 3 Champions League, 2 Copa del Rey</td>
+            </tr>
+            <tr>
+              <td>Xavi Hernández</td>
+              <td>Midfielder</td>
+              <td>1998-2015</td>
+              <td>8 La Liga, 4 Champions League, 3 Copa del Rey</td>
+            </tr>
+            <tr>
+              <td>Andrés Iniesta</td>
+              <td>Midfielder</td>
+              <td>2002-2018</td>
+              <td>9 La Liga, 4 Champions League, 6 Copa del Rey</td>
+            </tr>
+            <tr>
+              <td>Lionel Messi</td>
+              <td>Forward</td>
+              <td>2004-2021</td>
+              <td>10 La Liga, 4 Champions League, 7 Copa del Rey, 7 Ballon d'Or</td>
+            </tr>
+            <tr>
+              <td>Luis Alberto Suárez</td>
+              <td>Forward</td>
+              <td>2014-2020</td>
+              <td>4 La Liga, 1 Champions League, 1 Copa del Rey</td>
+            </tr>
+            <tr>
+              <td>Gerard Piqué</td>
+              <td>Defender</td>
+              <td>2008-2022</td>
+              <td>8 La Liga, 3 Champions League, 7 Copa del Rey</td>
+            </tr>
+            <tr>
+              <td>Víctor Valdés</td>
+              <td>Goalkeeper</td>
+              <td>2002-2014</td>
+              <td>6 La Liga, 3 Champions League, 6 Copa del Rey</td>
+            </tr>
+            <tr>
+              <td>Daniel "Dani" Alves</td>
+              <td>Defender</td>
+              <td>2008-2016</td>
+              <td>6 La Liga, 3 Champions League, 5 Copa del Rey</td>
+            </tr>
+            <tr>
+              <td>Samuel Eto'o</td>
+              <td>Forward</td>
+              <td>2004-2009</td>
+              <td>3 La Liga, 2 Champions League, 3 Copa del Rey</td>
+            </tr>
+            <tr>
+              <td>Deco</td>
+              <td>Midfielder</td>
+              <td>2004-2008</td>
+              <td>2 La Liga, 1 Champions League, 2 Copa del Rey</td>
+            </tr>
+            <tr>
+              <td>Ronaldinho Gaúcho</td>
+              <td>Midfielder/Forward</td>
+              <td>2003-2008</td>
+              <td>2 La Liga, 1 Champions League, 1 Copa del Rey, 1 Ballon d'Or</td>
+            </tr>
+            <tr>
+              <td>Rivaldo</td>
+              <td>Midfielder/Forward</td>
+              <td>1997-2002</td>
+              <td>2 La Liga, 1 Champions League, 2 Copa del Rey, 1 Ballon d'Or</td>
+            </tr>
+            <tr>
+              <td>Ronaldo Nazário</td>
+              <td>Forward</td>
+              <td>1996-1997</td>
+              <td>1 Cup Winners' Cup, 1 Copa del Rey, 1 Ballon d'Or</td>
+            </tr>
+            <tr>
+              <td>Luis Enrique</td>
+              <td>Midfielder</td>
+              <td>1996-2004</td>
+              <td>2 La Liga, 1 Copa del Rey, 1 Champions League</td>
+            </tr>
+            <tr>
+              <td>Hristo Stoichkov</td>
+              <td>Forward</td>
+              <td>1990-1995, 1996-1998</td>
+              <td>5 La Liga, 1 Champions League, 1 Copa del Rey, 1 Ballon d'Or</td>
+            </tr>
+          </tbody>
+        </table>
+        <img src="senyera.jpg" alt="Senyera_right" class="senyera_right">
+      </div>
+    </section>
+    <section class="maradona-tribute" id="maradona-tribute">
+      <h2 class="tribute">Tribute to the late great, Diego Armando Maradona.</h2>
+        <div class="maradon-box">
+          <div class="maradona-box-left-side">      
+            <figure>
+              <figcaption>Listen to Maradona's touching speech about football:</figcaption>
+              <audio controls src="./maradona.mp3">
+                <a href="./maradona.mp3">Download audio</a>
+              </audio>
+            </figure>
+            <div class="subtitles">
+              <h2 class="subtitles">Subtitles</h2>
+              <h3>English:</h3>
+              <p>Soccer is the most beautiful and healthiest sport in the world, let there be no doubt about that. Just because you make a mistake, you don't have to pay for soccer. I made a mistake and I paid. But... the ball does not, the ball does NOT get stained.</p>
+              <h3>Español:</h3>
+              <p>El fútbol es el deporte más lindo y más sano del mundo, eso no le quepa la menor duda a nadie. Porque se equivoque uno, no tiene que pagar el fútbol. Yo me equivoqué y pagué. Pero... la pelota no, la pelota NO se mancha.</p>
+            </div> 
+            <h4>Rest in peace, D10S 🤍💙</h4> 
+            <a href="https://www.digisport.ro/fotbal/cm-2022-qatar/argentina-campioana-mondiala-a-invins-dramatic-franta-si-si-a-trecut-in-palmares-al-treilea-trofeu-suprem-2113979" target="_blank">
+              <div class="interactive_albiceleste">
+                <img class="interactive-image" src="argentina_crest.jpg" alt="Argentina Campeon Mundial 2022">
+              </div>
+            </a>
+            <figure class="festejar">
+              <figcaption>Argentina, ya somos campeón mundial:</figcaption>
+              <audio controls src="./campeon_mundial.mp3">
+                <a href="./campeon_mundial.mp3">Download audio</a>
+              </audio>
+            </figure>
+          </div>
+            <div class="maradona-box-right-side">
+              <img src="Maradona_RIP.jpg" alt="Maradona_right">
+            </div>
+        </div>
+    </section>    
+  </main>
+
+  <footer>
+    <h6>&copy; 2023 Made by Popescu Pavel-Yanis.</h6>
+  </footer>
+</body>
+</html>
