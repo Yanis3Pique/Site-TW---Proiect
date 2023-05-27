@@ -6,7 +6,7 @@
   <title>FC Barcelona - project</title>
   <link rel="stylesheet" href="players-style.css">
   <link rel="icon" type="image/png" href="ball.ico">
-  <script src="players-carousel.js"></script>
+  <script type="text/javascript" src="players-script.js"></script>
 </head>
 <body class="body">
   <header class="banner-container">
@@ -21,6 +21,7 @@
         </div>
       </nav>
     </div>
+    <input type="text" id="id_caseta" />
   </header>
   <main>
     <section class="products-section">
@@ -84,7 +85,58 @@
         <h3 class="white_text">Xavi Hernández</h3>
         <p class="white_text">Head Coach</p>
       </div>
-    </section>       
+    </section>  
+
+    <section class="sectiune-formular">
+      <h1>FC Barcelona Quiz</h1>
+      <div class="quiz-container">
+        <div id="quiz"></div>
+      </div>
+      <button id="previous">Previous Question</button>
+      <button id="next">Next Question</button>
+      <button id="submit">Submit Quiz</button>
+      <div id="results"></div>
+    </section>
+
+    <section>
+      <div class="input-section">
+        <h2 id="titlu-form">Complete the form to receive updates about our players:</h2>
+        <form id="player-form">
+          <div class="input-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" pattern="[a-zA-Z0-9]{2,25} [a-zA-Z0-9]{2,25}" required />
+          </div>
+          <div class="input-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="input-group">
+            <label for="phone">Phone number:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required />
+          </div>
+          <div class="input-group">
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+              <option value="" selected disabled>Select your country</option>
+              <option value="Romania">Romania</option>
+              <option value="Spain">Spain</option>
+              <option value="Germany">Germany</option>
+              <option value="Brazil">Brazil</option>
+              <option value="Italy">Italy</option>
+            </select>
+          </div>
+          <button id="subs" type="submit">Subscribe</button>
+        </form>        
+        <div id="success-message"></div>
+      </div>
+    </section>
+  <section class = "ballsss">
+    <div id="container">
+      <div id="ball"></div>
+      </div>    
+      <div id="line"></div>
+      <button id="start-btn" onclick="start()">Start</button>
+  </section>
   </main>
   <footer>
     <h6 class="copyright_footer">&copy; 2023 Made by Popescu Pavel-Yanis.</h6>
